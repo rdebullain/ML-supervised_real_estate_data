@@ -5,6 +5,8 @@ Sure, here is the complete Readme in Markdown format:
 ## Project/Goals
 The goal of this project is to predict the sold price of real estate properties using a dataset of property listings. The dataset contains various attributes about the properties, including location, description, flags, and more. The objective is to preprocess the data, build and evaluate predictive models, and determine the best-performing model.
 
+![house price prediction](https://miro.medium.com/v2/resize:fit:1400/1*3Psu7nDr2LvhWH4R6-Tqeg.jpeg)
+
 ## Process
 
 ### Step 1: Data Collection and Initial Exploration
@@ -13,6 +15,12 @@ The goal of this project is to predict the sold price of real estate properties 
   - Listed all JSON files in the directory and read them into dataframes.
   - Normalized the data to handle nested structures in the JSON files.
   - Combined all normalized dataframes into a single dataframe for further processing.
+
+![Heat Map](https://github.com/rdebullain/data_project_midterm/blob/main/images/Correlation%20Heatmap.png?raw=true)
+
+![Sold Price Distribution](https://github.com/rdebullain/data_project_midterm/blob/main/images/Sold%20Price%20Distribution.png?raw=true)
+
+![Year Built Boxplot](https://github.com/rdebullain/data_project_midterm/blob/main/images/Year%20Built%20Boxplot.png?raw=true)
 
 ### Step 2: Data Preprocessing
 - **Details:**
@@ -110,7 +118,3 @@ All the code for data processing, model training, evaluation, and prediction is 
 - Functions to load model, preprocess data, and make predictions.
 
 This project showcases the complete workflow from data collection and preprocessing to model training, evaluation, and deployment. The final model can be used to predict the sold price of real estate properties based on various attributes.
-
----
-
-This Markdown Readme provides a comprehensive overview of your project's goals, process, results, challenges, and future goals. If there are specific sections you'd like to elaborate on or additional details you'd like to include, feel free to edit as needed.
