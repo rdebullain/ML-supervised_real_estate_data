@@ -1,6 +1,4 @@
-Sure, here is the complete Readme in Markdown format:
-
-# Data Science Midterm Project
+# Midterm Project
 
 ## Project/Goals
 The goal of this project is to predict the sold price of real estate properties using a dataset of property listings. The dataset contains various attributes about the properties, including location, description, flags, and more. The objective is to preprocess the data, build and evaluate predictive models, and determine the best-performing model.
